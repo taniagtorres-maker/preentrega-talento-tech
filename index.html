@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerc"s</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <a href="./index.html">
+            <img src="./assets/img/logo 2.png" alt="Logo principal" loading="lazy" class="logo">
+        </a>
+        <nav class="menu">
+
+            <ul class="menu-principal">
+                <li><a href="#Inicio">Inicio</a></li>
+                <li><a href="#product">Productos</a></li>
+                <li><a href="#Reseñas">Reseñas</a></li>
+                <li><a href="#contact">Contactos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container-main">
+        <div class="description">
+            <h1>Mi sitio web E-commerce</h1>
+            <!--<h2>Productos destacados</h2>-->
+            <p>lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+        </div>
+
+    </main>
+    <!--
+    <nav class="aside">
+        <ul class="menu-categorias">
+            <li>Hombres</li>
+            <li>Mujeres</li>
+            <li>Niños</li>
+
+        </ul>
+    </nav>
+-->
+    <div class="container-product">
+
+        <h2>Nuestro catálogo</h2>
+        
+        <h3>Descripción del producto</h3>
+
+        <section id="product" class="product-container">
+
+            
+
+            <article class="product-card">
+                <img src="./assets/img/ropa de mujer.jfif" alt="Conjunto de mujer" loading="lazy" class="product-image">
+
+
+                <div class="product-content">
+                    <span class="product-category">Categoría:conjuntos</span>
+                    <h4 class="product-title">Conjunto de mujer</h4>
+                    <p class="product-description">Vestido de verano estampado, con mangas cortas y escote en V, viene
+                        con zapatos de playa y un bolso</p>
+                    <p class="product-price">Precio: $10.00</p>
+
+                    <button class="add-to-cart">Agregar al carrito</button>
+
+                    <button class="buy-now">Comprar ahora</button>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <img src="./assets/img/ropa de hombre.jpg" alt="Conjunto de hombre" loading="lazy"
+                    class="product-image">
+
+
+                <div class="product-content">
+                    <span class="product-category">Categoría:conjuntos</span>
+                    <h4 class="product-title">Conjunto de hombre</h4>
+                    <p class="product-description">Pantalon de tela ligera, playera con mangas cortas y escote en V,
+                        viene con zapatos de playa, gafas de sol, reloj y un saco ligero</p>
+                    <p class="product-price">Precio: $15.00</p>
+
+                    <button class="add-to-cart">Agregar al carrito</button>
+
+                    <button class="buy-now">Comprar ahora</button>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <img src="./assets/img/ropa niño2.jfif" alt="Conjunto de niño" loading="lazy" class="product-image">
+
+
+                <div class="product-content">
+                    <span class="product-category">Categoría:conjuntos</span>
+                    <h4 class="product-title">Conjunto de niño</h4>
+                    <p class="product-description">Pantalon de tela ligera, playera con mangas cortas y escote redondo.
+                    </p>
+                    <p class="product-price">Precio: $12.00</p>
+                    <button class="add-to-cart">Agregar al carrito</button>
+
+                    <button class="buy-now">Comprar ahora</button>
+                </div>
+            </article>
+
+
+
+        </section>
+
+       
+    </div>
+ <section id="review" class="container-review">
+    <h2>Nuestros clientes</h2>
+
+    <div class="review-grid">
+        <article class="review-card">
+            <p>Cumplen con los plazos de entrega</p>
+            <span>Roxana Rubio</span>
+        </article>
+
+        <article class="review-card">
+            <p>Este producto es excelente. La calidad es impresionante y el precio es justo. Lo recomiendo a todos</p>
+            <span>Juan Perez</span>
+        </article>
+
+        <article class="review-card">
+            <p>Me encantó este producto. Es exactamente lo que estaba buscando y llegó en perfectas condiciones</p>
+            <span>Carlos Garcia</span>
+        </article>
+    </div>
+
+ </section>
+
+ <section id="contact" class="container-contact">
+    <h2>Contactanos</h2>
+    <form>
+        <fieldset>
+        <div>
+        <label for="nombre">Nombre:</label>
+        <input placeholder="John Doe" type="text" name="nombre" pattern="[A-Za-z\s]+"
+         title="Solo se permiten letras y espacios"> 
+        </input> 
+    </div>
+    <div>
+        <label for="Email">Email:</label>
+        <input placeholder="usuario@dominio.com" type="email" name="Email" required>
+    </div>
+    <div>
+        <label for="mensaje">Mensaje:</label>
+        <textarea placeholder="Escribe tu mensaje aquí..." name="mensaje" required></textarea>
+
+        <button type="submit">Enviar</button>
+    </fieldset>
+    </form>
+ </section>
+
+</body>
+
+<footer>
+   
+    <td colspan="2" align="center">
+    <p>&copy; 2026 Mi sitio web. Todos los derechos reservados.</p>
+    <p><strong>Creación:</strong> Alumno tech</p>
+</footer>
+
+</html>
